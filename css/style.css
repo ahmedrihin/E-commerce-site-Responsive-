@@ -299,6 +299,11 @@ section{
     border-radius: 3px;
     margin-bottom: 1rem;
     cursor: pointer;
+    transition: all 0.5s ease;
+}
+.first-product-card-wrapper .first-product-card .first-product-card-image button:hover{
+    background: var(--paste);
+    color: var(--white);
 }
 
 /* Time Limited Discount design */
@@ -459,10 +464,25 @@ section{
 .product-wrapper .product-card button{
     font-size: 1.2rem;
     padding: 0.4rem;
+    border: none;
+    transition: all 0.5s ease;
+}
+.product-wrapper .product-card button:hover{
+    background-color: var(--paste);
+    color: var(--white);
+}
+.product-wrapper .product-card i.shopping-btn:hover{
+    color: var(--white);
 }
 .product-wrapper .product-card button.second-btn{
     color: var(--primary);
     cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+}
+.product-wrapper .product-card button.second-btn:hover{
+    color: var(--white);
+    background-color: var(--paste);
 }
 .product-wrapper .product-card i.second-btn{
     color: var(--primary);
@@ -484,6 +504,21 @@ section{
     padding: 0.4rem;
     margin-bottom: 1rem;
     cursor: pointer;
+    border: none;
+    transition: all 0.5s ease;
+}
+.desktop-card-wrapper .first-card button:hover{
+    background-color: var(--paste);
+    color: var(--white);
+}
+.desktop-card-wrapper .first-card button.compare:hover{
+    color: var(--white);
+}
+.desktop-card-wrapper .first-card button i.compare-btn:hover{
+    color: var(--white);
+}
+.desktop-card-wrapper .desktop-card button i:hover{
+    color: var(--white);
 }
 .desktop-card-wrapper .first-card button.compare{
     color: var(--primary);
