@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Checkout</title>
+    <title>Single Page</title>
+
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,11 +17,11 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="stylesheet" href="./css/fontawesome.min.css">
     <!-- Responsive -->
-    <link rel="stylesheet" href="css/gridresponsive.css">
-
+    <link rel="stylesheet" href="css/singleresponsive.css">
     <!-- Main css -->
-    <link rel="stylesheet" href="css/gridstyle.css">
+    <link rel="stylesheet" href="css/singlestyle.css">
 </head>
+
 <body>
     <header>
         <div class="top-nav-bg">
@@ -28,9 +30,11 @@
                     <div class="top-nav">
                         <ul>
                             <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                            <li><a href="contact.html" ><i class="fas fa-user"></i> My Account</a></li>
-                            <li><a href="grid.html" class="active"><i class="fas fa-shopping-cart"></i> Shopping Cart</a></li>
-                            <li><a href="checkout.html" ><i class="fas fa-check" ></i> Checkout</a></li>
+                            <li><a href="contact.html"><i class="fas fa-user"></i> My Account</a></li>
+                            <li><a href="grid.html"><i class="fas fa-shopping-cart"></i> Shopping
+                                    Cart</a></li>
+                            <li><a href="checkout.html"><i class="fas fa-check"></i> Checkout</a></li>
+                            
                         </ul>
                     </div>
                     <div class="nav-select">
@@ -99,215 +103,139 @@
         </div>
     </header>
 
-    <!-- Grid details -->
-    <section id="grid-details">
+    <!-- Main content -->
+
+    <section>
         <div class="container">
-            <div class="grid-details-wrapper">
+            <div class="main-content-wrapper">
                 <div class="left">
-                    <div class="flex">
-                        <div class="best-config">
-                            <h3>Best configure and super brand.</h3>
+                    <div class="left-content-wrapper">
+                        <div class="left-image">
+                            <div class="image">
+                                <img src="images/desktop.png" alt="">
+
+                                <span class="sale">
+                                    Sale
+                                </span>
+                            </div>
+                            <div class="desktops">
+                                <a href="#">
+                                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                                </a>
+                                <img src="images/desktop-1.png" alt="">
+                                <img src="images/desktop-2.png" alt="">
+                                <img src="images/desktop-3.png" alt="">
+
+                                <a href="#">
+                                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                                </a>
+                            </div>
                         </div>
-                        <div class="off">
-                            <h3>Up to 50% off</h3>
+
+                        <div class="left-side-right-content">
+                            <div class="details-border">
+                                <h3>Product Title Here</h3>
+
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star-half-alt    "></i>
+                                <span>1 Review</span>
+                            </div>
+                            <div class="details-border">
+                                <p>Manufacture:&nbsp; Chanel</p>
+                                <p>Ability:
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                                        href="#">In stock</a> 20 items</p>
+                                <p class="last">Product Code: PC03</p>
+
+                                <h4>Product Dimention and Weight</h4>
+                                <p>Product Length: 10.0000m</p>
+                                <p class="weight">Product Weight: 10.0000kg</p>
+                            </div>
+
+                            <div class="details-border">
+                                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut atque id
+                                    reprehenderit nemo aperiam, suscipit facere. Velit voluptas voluptatem totam.</p>
+                            </div>
+                            <div class="strick-word">
+                                <del>$5055.00</del>
+                                <span class="doller">$4044.00</span>
+                            </div>
+
+                            <div>
+                                <button type="submit" class="add-to-cart"><i class="fa fa-shopping-cart cart" aria-hidden="true"></i> Add To
+                                    Cart</button>
+                                <button type="submit" class="submit"><i class="fas fa-edit edit"></i></button>
+
+                                <button class="submit" type="submit">
+                                    <i class="fa fa-undo edit" aria-hidden="true"></i>
+                                </button>
+
+                                <button type="submit" class="submit">
+                                    <i class="fa fa-question edit" aria-hidden="true"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="products-wrapper">
-                        <div class="product-card">
-                            <img src="images/mobile-game.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
+                    <div class="share-this">
+                        <span class="share">Share this</span> 
+                        <a href="#"><i class="fab fa-facebook-square icon facebook
+                            " aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square icon twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-square icon google" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-square icon pinterest" aria-hidden="true"></i></a>  
+                    </div>
 
+                    <div class="review">
+                        <div class="review-wrapper">
+                            <div>
+                                <a href="#">Description</a> 
+                            </div>
+                            <div>
+                                <a href="#">Specification</a>
+                            </div>
+                            <div >
+                                <a href="#" class="review-active">Review</a>
+                            </div>
+                            <div>
+                                <a href="#">Custom Tab</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main-review">
+                        <p>Last Review</p>
+
+                        <div class="flex client">
+                            <div class="client-name">
+                                <span class="burhan">By Bin Burhan</span>
+
+                                <i class="fas fa-clock    "></i>
+                                <span>10:05pm</span>
+
+                                <i class="far fa-bell"></i>
+                                <span>Sunday</span>
+
+                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                <span>26 December</span>
+                            </div>
+
+                            <div class="ratings">
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star    "></i>
+                                <i class="fas fa-star-half-alt    "></i>
+                            </div>
                         </div>
 
-                        <div class="product-card">
-                            <img src="images/mobile-horse.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-music.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-colorful.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-game.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-music.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-interface.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-video.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-game.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-stock.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-game.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
-
-                        <div class="product-card">
-                            <img src="images/mobile-soccer.png" alt="">
-                            <p class="primov1">
-                                Smart Phone Primo V1
-                            </p>
-                            <p class="doller">
-                                $10299
-                            </p>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star    "></i>
-                            <i class="fas fa-star-half-alt    "></i>
-
-                        </div>
+                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum fugit reprehenderit, repellendus eos dolor cum, inventore error doloribus iste repudiandae blanditiis, recusandae doloremque nisi porro odio! Perferendis modi quis facere. Corporis perspiciatis sint quibusdam autem illum eius accusantium laudantium? Alias.</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at assumenda ipsam, rerum aliquam nobis a modi alias, perferendis, obcaecati quo! Ratione suscipit a, in, sit officia porro perspiciatis voluptates voluptatem veniam saepe, quo ducimus! Omnis provident blanditiis vero eum?</p>
                     </div>
                 </div>
-
 
                 <div class="right">
                     <h3>CATEGORY</h3>
@@ -349,22 +277,13 @@
                         <li><a href="#"><i class="fas fa-caret-right"></i> $4000 - $5000</a></li>
                         <li><a href="#"><i class="fas fa-caret-right"></i> $5000 - $6000</a></li>
                     </ul>
-
-                    <div class="ads flex">
-                        <h2>ADD BANNER</h2>
-                    </div>
-                    <div class="ads flex ads2">
-                        <h2>ADD BANNER</h2>
-                    </div>
-                    <div class="ads flex">
-                        <h2>ADD BANNER</h2>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Short desc -->
+
+     <!-- Short desc -->
 
     <div class="short-desc-card">
         <div class="container">
@@ -580,4 +499,5 @@
     </footer>
     <script src="./js/fontawesome.min.js"></script>
 </body>
+
 </html>
